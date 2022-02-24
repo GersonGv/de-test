@@ -29,7 +29,7 @@ Fields in **bold**: primary keys.
 
 (ERD diagram was made by using https://dbdiagram.io/)
 
-<img src="photo_01.png" width="70%"/>
+<img src="media/photo_01.png" width="70%"/>
 
 ## 2. MORE DETAILS ABOUT THE PROJECT PROCESS
 
@@ -77,4 +77,4 @@ Fields in **bold**: primary keys.
     │
     ├── .gitignore                  <- Used for ignoring uploading unecessary data to repo.
     │
-    ├── docker-compose.yml          <- Docker-compose file for runing docker containers with environemnt specs. 
+    ├── docker-compose.yml          <- Docker-compose file for runing docker containers with environemnt specs.
