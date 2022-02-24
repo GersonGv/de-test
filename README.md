@@ -68,12 +68,12 @@ Fields in **bold**: primary keys.
     │
     ├── dev                         
     │   ├── Dockerfile              <- Defines docker container and installs dependencies
-    │   ├── requirements.txt        <- Stores Python required libraries.
-    │   └── setup.py                <- Installs `src` custom library
+    │   ├── requirements.txt        <- Stores Python required libraries.
+    │   └── setup.py                <- Installs `src` custom library
     │
     ├── data                        <- Shared volume with docker container.
-    │   ├── raw                     <- Raw data (First step in the datalake) - will be created with the script
-    │   ├── trusted                 <- Trusted data (First step in the datalake) - will be created with the script
+    │   ├── raw                     <- Raw data (First step in the datalake) - will be created with the script
+    │   ├── trusted                 <- Trusted data (First step in the datalake) - will be created with the script
     │
     ├── .gitignore                  <- Used for ignoring uploading unecessary data to repo.
     │
