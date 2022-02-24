@@ -1,0 +1,9 @@
+# ignore local jupyter image generated folders
+.*
+!.gitignore
+!.gitkeep
+
+# data files
+*.parquet
+*.crc
+_SUCCESS

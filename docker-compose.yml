@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+    spark-dev-env:
+        build: ./data
+        stdin_open: true
+        tty: true
+        ports:
+            - "8080:8080"
+        volumes:
+            - ./data:/home/gerson
+        environment:
+            - PYSPARK_SUBMIT_ARGS=--packages=org.apache.hadoop:hadoop-aws:2.7.3 pyspark-shell
