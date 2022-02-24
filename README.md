@@ -73,6 +73,7 @@ Fields in **bold**: primary keys.
     ├── data                        <- Shared volume with docker container.
     │   ├── raw                     <- Raw data (First step in the datalake) - will be created with the script
     │   ├── trusted                 <- Trusted data (First step in the datalake) - will be created with the script
+    │   └── etl.py                  <- script that contains the ETL
     │
     ├── .gitignore                  <- Used for ignoring uploading unecessary data to repo.
     │
