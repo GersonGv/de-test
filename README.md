@@ -67,7 +67,7 @@ Fields in **bold**: primary keys.
     ├── img                         <- Folder for storing media
     │
     ├── dev                         
-    │   ├── Dockerfile              <- Defines docker container and installs dependencies.
+    │   ├── Dockerfile              <- Defines docker container and installs dependencies
     │   ├── requirements.txt        <- Stores Python required libraries.
     │   └── setup.py                <- Installs `src` custom library
     │
