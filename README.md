@@ -68,8 +68,7 @@ Fields in **bold**: primary keys.
     │
     ├── dev                         
     │   ├── Dockerfile              <- Defines docker container and installs dependencies
-    │   ├── requirements.txt        <- Stores Python required libraries.
-    │   └── setup.py                <- Installs `src` custom library
+    │   └── requirements.txt        <- Stores Python required libraries.
     │
     ├── data                        <- Shared volume with docker container.
     │   ├── raw                     <- Raw data (First step in the datalake) - will be created with the script
