@@ -41,7 +41,7 @@ Fields in **bold**: primary keys.
 
 2. Put all the codes together to build the script `etl.py` and run on docker (Spark local mode), testing both the local data and a subset of data
 
-(The details of the workflow are in the `eat.py` itself)
+(The details of the workflow are in the `elt.py` itself)
 
 ### 3.2. SOME IMPORTANT NOTES ABOUT THE PROJECT
 
